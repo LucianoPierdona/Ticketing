@@ -465,10 +465,10 @@
     "@types/yargs" "^15.0.0"
     chalk "^4.0.0"
 
-"@lpjtickets/common@^1.0.4":
-  version "1.0.11"
-  resolved "https://registry.yarnpkg.com/@lpjtickets/common/-/common-1.0.11.tgz#c58cdef698bf4b32178601f3fc34e494ac1a2696"
-  integrity sha512-8u5b5SsH9g41ogXeAYCfkxQeYCOx5jmoL7Lne3tvLPrpZoSYPH3FtQfRh710lQGOGJmUcgV9kxy6A1HVgh0F4Q==
+"@lpjtickets/common@^1.0.13":
+  version "1.0.13"
+  resolved "https://registry.yarnpkg.com/@lpjtickets/common/-/common-1.0.13.tgz#31f833caa66481c842c215caafbbd3625ef20ded"
+  integrity sha512-7wQeDO1W6dDxwzwXCWAvLv5j10a/PQ1zmN6HR4rj35un/LVBd/u/npO7hXpNpR1HBme5kA+k+OyKF0bRqoFPag==
   dependencies:
     "@types/cookie-session" "^2.0.42"
     "@types/express" "^4.17.9"

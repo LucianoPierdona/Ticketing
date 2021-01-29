@@ -14,8 +14,12 @@ spec:
     spec:
       containers:
         - name: payments
-          image: lucianopierdona/payments
+          image: stephengrider/payments
           env:
+            - name: NATS_CLIENT_ID
+              valueFrom:
+                fieldRef:
+                  fieldPath: metadata.name
             - name: NATS_URL
               value: 'http://nats-srv:4222'
             - name: NATS_CLUSTER_ID
@@ -29,7 +33,7 @@ spec:
                   key: JWT_KEY
             - name: STRIPE_KEY
               valueFrom:
-                secreyKeyRef:
+                secretKeyRef:
                   name: stripe-secret
                   key: STRIPE_KEY
 ---
